@@ -28,7 +28,7 @@
         <br><br>
         <label>Enter your password
             <input type="password" placeholder="Password" name="password">
-        </label>5
+        </label>
         <br><br>
 
         <label>Male
