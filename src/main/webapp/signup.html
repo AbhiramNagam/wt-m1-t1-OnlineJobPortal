@@ -5,7 +5,7 @@
     <title>Title</title>
 <!--  <meta http-equiv="refresh" content="1">-->
   <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' >
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/css_signup.css">
   <script src="script.js">
 
   </script>
@@ -20,7 +20,7 @@
     <div class="container" style="height: 100%;position:relative;">
       <input id="register_toggle" type="checkbox">
       <div class="slider" style="height: 100%;position:relative;">
-        <form class="form" action="../store2.jsp">
+        <form class="form" action="">
           <span class="title">Login</span>
           <div class="form_control">
             <input required="" class="input" type="text" name="username">
@@ -34,11 +34,12 @@
 
           <span class="bottom_text">Don't have an account? <label class="swtich" for="register_toggle">Sign Up</label> </span>
 <!--      -----------------=============--------------->
-<!--            <script>-->
-<!--                document.getElementById("register_toggle").click();-->
-<!--            </script>-->
+            <script>
+                document.getElementById("register_toggle").click();
+            </script>
+
         </form>
-        <form class="form" id="signup_" action="store2.jsp" >
+        <form class="form" id="signup_" action="store.jsp" >
           <span class="title">Sign Up</span>
 
           <div class="form_control">
@@ -62,7 +63,7 @@
             <label class="label">Password</label>
           </div>
           <div class="form_control">
-            <input required="" class="input" type="number" name="age">
+            <input required="" class="input" type="number" name="age" min="13">
             <label class="label">Age</label>
           </div>
           <div class="">
@@ -85,61 +86,15 @@
 
 <!--          <div class="form_control">-->
             <button id="addSkillButton" type="button">+</button>
-<!--          </div>-->
-
-<!--          <script>-->
-<!--              const addSkillButton = document.getElementById("addSkillButton");-->
-<!--              const skillsContainer = document.getElementById("skillsContainer");-->
-<!--              var skillCount = 0; // Initial skill count-->
-
-<!--              addSkillButton.addEventListener("click", () => {-->
-<!--              skillCount++;-->
-
-<!--              const skillInput = document.createElement("div");-->
-<!--              skillInput.classList.add("form_control");-->
-<!--              skillInput.innerHTML = `-->
-<!--            <input required="" class="input" type="text" name="skill${skillCount}">-->
-<!--            <label class="label">skill ${skillCount}</label>-->
-<!--        `;-->
-
-<!--              skillsContainer.appendChild(skillInput);-->
-<!--                document.querySelector('input[name="skillCount"]').value = skillCount;-->
-
-<!--              });-->
-<!--            </script>-->
           <input type="hidden" name="skillCount" id="skillCount" >
 
-<!--          Send skillCount to form -->
-<!--          Aspirations -->
-
-<!--          Aspirations -->
           <div id="aspirationsContainer" class="form_control" style="margin: 0">
             Aspiring Positions
           </div>
           <button id="aspirationsButton" type="button">+</button>
-<!--          <script>-->
-<!--            document.addEventListener("DOMContentLoaded", () => {-->
-<!--              const aspirationsButton = document.getElementById("aspirationsButton");-->
-<!--              const aspirationsContainer = document.getElementById("aspirationsContainer");-->
-<!--              let aspirationCount = 0;-->
-
-<!--              aspirationsButton.addEventListener("click", () => {-->
-<!--                aspirationCount++;-->
-<!--                const aspirationInput = document.createElement("div");-->
-<!--                aspirationInput.classList.add("form_control");-->
-<!--                aspirationInput.innerHTML = `-->
-<!--        <input required="" class="input" type="text" name="aspiration${aspirationCount}">-->
-<!--        <label class="label">Aspiration ${aspirationCount}</label>-->
-<!--      `;-->
-
-<!--                aspirationsContainer.appendChild(aspirationInput);-->
-<!--              });-->
-<!--            });-->
-<!--            document.querySelector('input[name="aspirationCount"]').value = aspirationCount;-->
-<!--          </script>-->
             <input type="hidden" name="aspirationCount" id="aspirationCount">
           <div class="form_control">
-            <input required="" class="input" type="number" name="experience">
+            <input required="" class="input" type="number" name="experience" min="0">
             <label class="label">Experience</label>
           </div>
           <button>Sign Up</button>
