@@ -5,13 +5,13 @@
 <html>
 <head lang="en-IN">
 <meta http-equiv="refresh" content="100">
-<%--    <link rel="stylesheet" href="css/style.css">--%>
+<%--    <link rel="stylesheet" href="css/style1.css">--%>
 </head>
 <body>
 <div class="container">
     <center>
         <h1 class="mainheading">Registration Form</h1>
-        <form action="store.jsp">
+        <form action="tstore.jsp">
             <input type="text" name="firstName" class="input">
             <label class="label">
                 First Name

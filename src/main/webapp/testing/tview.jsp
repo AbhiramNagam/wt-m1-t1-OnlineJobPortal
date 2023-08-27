@@ -20,7 +20,7 @@
         Class.forName("com.mysql.jdbc.Driver");
 
 
-        Connection connection = DriverManager.getConnection(connectionURL, "root", "MyNewPass");
+        Connection connection = DriverManager.getConnection(connectionURL, "testUser", "Ripple#Xrp");
 
         if(!connection.isClosed())
 %>
