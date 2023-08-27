@@ -13,8 +13,8 @@
 
 <%
     String jdbcUrl = "jdbc:mysql://localhost:3306/test";
-    String dbUsername = "root";
-    String dbPassword = "MyNewPass";
+    String dbUsername = "testUser";
+    String dbPassword = "Ripple#Xrp";
 
     try {
         // Load the MySQL JDBC driver
