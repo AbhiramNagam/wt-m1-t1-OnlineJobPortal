@@ -45,7 +45,7 @@ body {
 }
 
 .hero {
-    background-image: url('images/hero-background.jpg');
+    background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -55,11 +55,18 @@ body {
 .hero h2 {
     font-size: 48px;
     margin-bottom: 20px;
-    color: #ffffff;
+    max-width: 800px;
+    color: #000000;
+    /*color: #ffffff;*/
+    background: white;
+    box-sizing: border-box;
 }
 
 .hero p {
     font-size: 24px;
     margin: 0;
     color: #ffffff;
+    box-sizing: border-box;
+    background: black;
+    max-width: 800px;
 }
