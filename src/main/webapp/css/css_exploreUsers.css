@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+select, button, input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4caf50;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+option {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+
+select:focus, button:focus, input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+#ageFrom,#ageTo,#ageFromLabel,#ageToLabel{
+    /*padding-left: 10%;*/
+    margin-left: 5%;
+}
+

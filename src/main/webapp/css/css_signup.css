@@ -1,7 +1,7 @@
 * {
     color: #e8e8e8;
-    background-color: #e8e8e8;
-    /*background-color:black ;*/
+    /*background-color: #e8e8e8;*/
+    background-color: #262626;
 }
 
 .container {
@@ -110,12 +110,10 @@ form button:active {
     cursor: pointer;
 }
 
-/* Additional styles for dynamically added skill input fields */
 #skillsContainer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    /*margin-top: 20px;*/
 }
 
 #skillsContainer .form_control {
@@ -128,7 +126,6 @@ form button:active {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    /*margin-top: 20px;*/
 }
 #aspirationsContainer .form_control {
     width: 100%;

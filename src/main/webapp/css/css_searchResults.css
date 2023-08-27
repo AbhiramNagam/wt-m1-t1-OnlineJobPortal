@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.user {
+    border: 1px solid #333;
+    background-color: #1f1f1f;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.user h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.user p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.skills, .aspirations {
+    margin-top: 10px;
+}
+
+.skills ul, .aspirations ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills li, .aspirations li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.skills li, .aspirations li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+
+option {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.skill-box {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 6px 12px;
+    margin: 4px;
+    border-radius: 4px;
+}
+.aspirations-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+.aspirations-box{
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 6px 12px;
+    margin: 4px;
+    border-radius: 4px;
+}
