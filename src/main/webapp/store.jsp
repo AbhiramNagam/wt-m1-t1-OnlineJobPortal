@@ -159,12 +159,10 @@
         %>
 
         <%
-            if (connection != null) {
-                try {
-                    connection.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
         %>
         <%
