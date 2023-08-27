@@ -45,7 +45,7 @@ body {
 }
 
 .hero {
-    background-image: url('hero-background.jpg');
+    background-image: url('images/hero-background.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
