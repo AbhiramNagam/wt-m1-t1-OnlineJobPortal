@@ -8,7 +8,7 @@
 <center>
   <h1><%= "Hello World!" %></h1>
   <br>
-  <a href="signup.jsp">Singup</a>
+  <a href="tsignup.jsp">Singup</a>
   <br><br>
 
   <a href="login.jsp">Login</a>
