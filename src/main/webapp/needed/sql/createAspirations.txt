@@ -1,0 +1,6 @@
+CREATE TABLE Aspirations (
+    aspiration_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    aspiration_name VARCHAR(100),
+    FOREIGN KEY (user_id) REFERENCES Users(user_id)
+);

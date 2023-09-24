@@ -1,0 +1,6 @@
+CREATE TABLE Skills (
+    skill_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    skill_name VARCHAR(50),
+    FOREIGN KEY (user_id) REFERENCES Users(user_id)
+);
